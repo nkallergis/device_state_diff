@@ -1,0 +1,30 @@
+[
+    {
+        "vrf": "",
+        "protocol": "C",
+        "type": "",
+        "network": "10.0.0.0",
+        "prefix_length": "24",
+        "distance": "",
+        "metric": "",
+        "nexthop_ip": "",
+        "nexthop_vrf": "",
+        "nexthop_if": "GigabitEthernet1",
+        "uptime": "",
+        "flag": ""
+    },
+    {
+        "vrf": "",
+        "protocol": "L",
+        "type": "",
+        "network": "10.0.0.15",
+        "prefix_length": "32",
+        "distance": "",
+        "metric": "",
+        "nexthop_ip": "",
+        "nexthop_vrf": "",
+        "nexthop_if": "GigabitEthernet1",
+        "uptime": "",
+        "flag": ""
+    }
+]
