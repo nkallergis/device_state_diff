@@ -4,5 +4,5 @@
         "csr1",
         "eos-leaf2"
     ],
-    "prepost": "PRE"
+    "prepost": "POST"
 }
