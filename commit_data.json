@@ -1,8 +1,9 @@
 {
-    "commit_datetime": "20241126035636",
-    "change_request_number": "CHG0212933",
+    "commit_datetime": "20241127033452",
+    "change_request_number": "MANUALCOLLECTION",
     "in_scope_devices": [
-        "tdc2pdb06"
-    ],
-    "prepost": "PRE"
+        "csr1",
+        "eos-leaf1",
+        "eos-spine2"
+    ]
 }
