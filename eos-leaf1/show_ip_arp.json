@@ -1,0 +1,23 @@
+[
+    {
+        "ip_address": "172.18.0.1",
+        "age": "0:04:17",
+        "mac_address": "0242.eda2.c809",
+        "interface": "Management0",
+        "vrf": ""
+    },
+    {
+        "ip_address": "172.18.0.6",
+        "age": "0:00:00",
+        "mac_address": "0242.ac12.0006",
+        "interface": "Management0",
+        "vrf": ""
+    },
+    {
+        "ip_address": "172.18.0.7",
+        "age": "0:03:52",
+        "mac_address": "0242.ac12.0007",
+        "interface": "Management0",
+        "vrf": ""
+    }
+]
