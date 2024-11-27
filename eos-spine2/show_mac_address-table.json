@@ -1,1 +1,22 @@
-"          Mac Address Table\n------------------------------------------------------------------\n\nVlan    Mac Address       Type        Ports      Moves   Last Move\n----    -----------       ----        -----      -----   ---------\nTotal Mac Addresses for this criterion: 0\n\n          Multicast Mac Address Table\n------------------------------------------------------------------\n\nVlan    Mac Address       Type        Ports\n----    -----------       ----        -----\nTotal Mac Addresses for this criterion: 0"
+[
+    {
+        "mac_address": "0c00.d526.6401",
+        "type": "DYNAMIC",
+        "vlan_id": "1",
+        "destination_port": [
+            "Et1"
+        ],
+        "moves": "1",
+        "last_move": "0:01:35"
+    },
+    {
+        "mac_address": "aac1.abd3.8312",
+        "type": "DYNAMIC",
+        "vlan_id": "1",
+        "destination_port": [
+            "Et1"
+        ],
+        "moves": "1",
+        "last_move": "0:03:07"
+    }
+]
