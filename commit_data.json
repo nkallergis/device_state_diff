@@ -1,11 +1,7 @@
 {
-    "commit_datetime": "20241128025915",
+    "commit_datetime": "20241128025949",
     "change_request_number": "MANUALCOLLECTION",
     "in_scope_devices": [
-        "csr1",
-        "eos-leaf1",
-        "eos-leaf2",
-        "eos-spine1",
-        "eos-spine2"
+        "csr1"
     ]
 }
