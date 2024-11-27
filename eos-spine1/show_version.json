@@ -2,10 +2,10 @@
     {
         "model": "cEOSLab",
         "hw_version": "",
-        "serial_number": "02F9DA005EB8DE625FC3AD30912DCA83",
-        "sys_mac": "001c.7340.4e1f",
+        "serial_number": "D36F3375191E3E31ED1A61DDAC12D6CD",
+        "sys_mac": "001c.73c5.7f3d",
         "image": "4.30.5M-35156751.4305M",
         "total_memory": "65841540",
-        "free_memory": "47407376"
+        "free_memory": "47407372"
     }
 ]
