@@ -1,0 +1,7 @@
+{
+    "commit_datetime": "20241128045050",
+    "change_request_number": "MANUALCOLLECTION",
+    "in_scope_devices": [
+        "csr1"
+    ]
+}

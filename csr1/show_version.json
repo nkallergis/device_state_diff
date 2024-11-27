@@ -1,0 +1,26 @@
+[
+    {
+        "software_image": "X86_64_LINUX_IOSD-UNIVERSALK9-M",
+        "version": "17.3.4a",
+        "release": "fc3",
+        "rommon": "IOS-XE",
+        "hostname": "csr1",
+        "uptime": "5 days, 8 hours, 18 minutes",
+        "uptime_years": "",
+        "uptime_weeks": "",
+        "uptime_days": "5",
+        "uptime_hours": "8",
+        "uptime_minutes": "18",
+        "reload_reason": "Unknown reason",
+        "running_image": "packages.conf",
+        "hardware": [
+            "CSR1000V"
+        ],
+        "serial": [
+            "981YPZQODZ5"
+        ],
+        "config_register": "0x2102",
+        "mac_address": [],
+        "restarted": ""
+    }
+]
