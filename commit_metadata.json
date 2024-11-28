@@ -1,7 +1,18 @@
 {
-    "commit_datetime": "20241128205248",
+    "commit_datetime": "20241128210910",
     "change_request_number": "MANUALCOLLECTION",
-    "in_scope_devices": [
-        "csr1"
-    ]
+    "in_scope": {},
+    "csr1": {},
+    "show_ip_arp": "show ip arp",
+    "show_spanning-tree": "show spanning-tree",
+    "show_ip_ospf_neighbor": "show ip ospf neighbor",
+    "show_ip_route": "show ip route",
+    "show_version": "show version",
+    "show_cdp_neighbors": "show cdp neighbors",
+    "show_mac_address-table": "show mac address-table",
+    "show_ip_interface_brief": "show ip interface brief",
+    "show_ip_arp_vrf_Blue": "show ip arp vrf Blue",
+    "show_ip_arp_vrf_Green": "show ip arp vrf Green",
+    "show_ip_route_vrf_Blue": "show ip route vrf Blue",
+    "show_ip_route_vrf_Green": "show ip route vrf Green"
 }
