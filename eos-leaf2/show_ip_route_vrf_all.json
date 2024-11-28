@@ -1,6 +1,53 @@
 [
     {
         "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.0.1",
+        "prefix_length": "32",
+        "distance": "110",
+        "metric": "20",
+        "direct": "",
+        "next_hop": [
+            "10.10.251.5"
+        ],
+        "interface": [
+            "Ethernet1"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.0.2",
+        "prefix_length": "32",
+        "distance": "110",
+        "metric": "20",
+        "direct": "",
+        "next_hop": [
+            "10.10.252.5"
+        ],
+        "interface": [
+            "Ethernet2"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.10.1",
+        "prefix_length": "32",
+        "distance": "110",
+        "metric": "30",
+        "direct": "",
+        "next_hop": [
+            "10.10.251.5",
+            "10.10.252.5"
+        ],
+        "interface": [
+            "Ethernet1",
+            "Ethernet2"
+        ]
+    },
+    {
+        "vrf": "default",
         "protocol": "C",
         "network": "10.10.10.2",
         "prefix_length": "32",
@@ -16,6 +63,81 @@
     },
     {
         "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.20.1",
+        "prefix_length": "32",
+        "distance": "110",
+        "metric": "11",
+        "direct": "",
+        "next_hop": [
+            "10.10.255.2"
+        ],
+        "interface": [
+            "Ethernet3"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.251.0",
+        "prefix_length": "30",
+        "distance": "110",
+        "metric": "20",
+        "direct": "",
+        "next_hop": [
+            "10.10.251.5"
+        ],
+        "interface": [
+            "Ethernet1"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "C",
+        "network": "10.10.251.4",
+        "prefix_length": "30",
+        "distance": "",
+        "metric": "",
+        "direct": "directly",
+        "next_hop": [
+            "connected"
+        ],
+        "interface": [
+            "Ethernet1"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.252.0",
+        "prefix_length": "30",
+        "distance": "110",
+        "metric": "20",
+        "direct": "",
+        "next_hop": [
+            "10.10.252.5"
+        ],
+        "interface": [
+            "Ethernet2"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "C",
+        "network": "10.10.252.4",
+        "prefix_length": "30",
+        "distance": "",
+        "metric": "",
+        "direct": "directly",
+        "next_hop": [
+            "connected"
+        ],
+        "interface": [
+            "Ethernet2"
+        ]
+    },
+    {
+        "vrf": "default",
         "protocol": "C",
         "network": "10.10.255.0",
         "prefix_length": "30",
@@ -26,7 +148,7 @@
             "connected"
         ],
         "interface": [
-            "Ethernet2"
+            "Ethernet3"
         ]
     },
     {

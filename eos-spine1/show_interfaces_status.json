@@ -11,7 +11,7 @@
     {
         "port": "Et2",
         "name": "",
-        "status": "notconnect",
+        "status": "connected",
         "vlan_id": "routed",
         "duplex": "full",
         "speed": "1G",

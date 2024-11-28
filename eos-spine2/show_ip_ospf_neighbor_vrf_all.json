@@ -5,8 +5,18 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:31",
+        "dead_time": "00:00:34",
         "ip_address": "10.10.252.2",
         "interface": "Ethernet1"
+    },
+    {
+        "neighbor_id": "10.10.10.2",
+        "instance": "1",
+        "vrf": "default",
+        "priority": "1",
+        "state": "FULL/DR",
+        "dead_time": "00:00:29",
+        "ip_address": "10.10.252.6",
+        "interface": "Ethernet2"
     }
 ]

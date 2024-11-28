@@ -2,8 +2,8 @@
     {
         "neighbor_id": "10.10.10.2",
         "priority": "1",
-        "state": "FULL/DR",
-        "dead_time": "00:00:37",
+        "state": "FULL/BDR",
+        "dead_time": "00:00:34",
         "ip_address": "10.10.255.1",
         "interface": "GigabitEthernet2"
     }
