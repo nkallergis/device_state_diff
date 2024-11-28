@@ -5,8 +5,8 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/BDR",
-        "dead_time": "00:00:30",
-        "ip_address": "10.10.2.1",
+        "dead_time": "00:00:34",
+        "ip_address": "10.10.2.9",
         "interface": "Ethernet2"
     },
     {
@@ -15,8 +15,8 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/BDR",
-        "dead_time": "00:00:38",
-        "ip_address": "10.10.1.1",
+        "dead_time": "00:00:35",
+        "ip_address": "10.10.1.9",
         "interface": "Ethernet1"
     }
 ]

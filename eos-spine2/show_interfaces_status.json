@@ -18,6 +18,15 @@
         "type": "EbraTestPhyPort"
     },
     {
+        "port": "Et3",
+        "name": "",
+        "status": "connected",
+        "vlan_id": "routed",
+        "duplex": "full",
+        "speed": "1G",
+        "type": "EbraTestPhyPort"
+    },
+    {
         "port": "Ma0",
         "name": "",
         "status": "connected",
