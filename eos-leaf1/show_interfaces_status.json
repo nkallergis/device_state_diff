@@ -3,7 +3,7 @@
         "port": "Et1",
         "name": "",
         "status": "connected",
-        "vlan_id": "1",
+        "vlan_id": "routed",
         "duplex": "full",
         "speed": "1G",
         "type": "EbraTestPhyPort"
@@ -12,7 +12,7 @@
         "port": "Et2",
         "name": "",
         "status": "connected",
-        "vlan_id": "1",
+        "vlan_id": "routed",
         "duplex": "full",
         "speed": "1G",
         "type": "EbraTestPhyPort"

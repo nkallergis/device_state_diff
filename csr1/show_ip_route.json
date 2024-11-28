@@ -26,5 +26,19 @@
         "nexthop_if": "GigabitEthernet1",
         "uptime": "",
         "flag": ""
+    },
+    {
+        "vrf": "",
+        "protocol": "C",
+        "type": "",
+        "network": "10.10.20.1",
+        "prefix_length": "32",
+        "distance": "",
+        "metric": "",
+        "nexthop_ip": "",
+        "nexthop_vrf": "",
+        "nexthop_if": "Loopback0",
+        "uptime": "",
+        "flag": ""
     }
 ]

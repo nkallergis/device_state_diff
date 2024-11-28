@@ -1,1 +1,26 @@
-"Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/transport.py\", line 2369, in _check_banner\n    buf = self.packetizer.readline(timeout)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/packet.py\", line 395, in readline\n    buf += self._read_timeout(timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/packet.py\", line 665, in _read_timeout\n    raise EOFError()\nEOFError\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/netmiko/base_connection.py\", line 1139, in establish_connection\n    self.remote_conn_pre.connect(**ssh_connect_params)\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/client.py\", line 451, in connect\n    t.start_client(timeout=timeout)\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/transport.py\", line 773, in start_client\n    raise e\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/transport.py\", line 2185, in run\n    self._check_banner()\n  File \"/usr/local/lib/python3.11/site-packages/paramiko/transport.py\", line 2373, in _check_banner\n    raise SSHException(\nparamiko.ssh_exception.SSHException: Error reading SSH protocol banner\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/nornir/core/task.py\", line 99, in start\n    r = self.task(self, **self.params)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nornir_netmiko/tasks/netmiko_send_command.py\", line 26, in netmiko_send_command\n    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nornir/core/inventory.py\", line 494, in get_connection\n    self.open_connection(\n  File \"/usr/local/lib/python3.11/site-packages/nornir/core/inventory.py\", line 546, in open_connection\n    conn_obj.open(\n  File \"/usr/local/lib/python3.11/site-packages/nornir_netmiko/connections/netmiko.py\", line 59, in open\n    connection = ConnectHandler(**parameters)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/netmiko/ssh_dispatcher.py\", line 401, in ConnectHandler\n    return ConnectionClass(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/netmiko/base_connection.py\", line 490, in __init__\n    self._open()\n  File \"/usr/local/lib/python3.11/site-packages/netmiko/base_connection.py\", line 495, in _open\n    self.establish_connection()\n  File \"/usr/local/lib/python3.11/site-packages/netmiko/base_connection.py\", line 1192, in establish_connection\n    raise NetmikoTimeoutException(msg)\nnetmiko.exceptions.NetmikoTimeoutException: \nA paramiko SSHException occurred during connection creation:\n\nError reading SSH protocol banner\n\n\n"
+[
+    {
+        "protocol": "Internet",
+        "ip_address": "10.0.0.2",
+        "age": "225",
+        "mac_address": "5255.0a00.0002",
+        "type": "ARPA",
+        "interface": "GigabitEthernet1"
+    },
+    {
+        "protocol": "Internet",
+        "ip_address": "10.0.0.3",
+        "age": "198",
+        "mac_address": "5255.0a00.0003",
+        "type": "ARPA",
+        "interface": "GigabitEthernet1"
+    },
+    {
+        "protocol": "Internet",
+        "ip_address": "10.0.0.15",
+        "age": "-",
+        "mac_address": "0c00.66db.0200",
+        "type": "ARPA",
+        "interface": "GigabitEthernet1"
+    }
+]
