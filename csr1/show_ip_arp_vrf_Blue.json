@@ -1,0 +1,10 @@
+[
+    {
+        "protocol": "Internet",
+        "ip_address": "2.2.2.2",
+        "age": "-",
+        "mac_address": "0c00.d526.6401",
+        "type": "ARPA",
+        "interface": "GigabitEthernet2"
+    }
+]

@@ -7,7 +7,13 @@
     },
     {
         "interface": "GigabitEthernet2",
-        "ip_address": "unassigned",
+        "ip_address": "2.2.2.2",
+        "status": "up",
+        "proto": "up"
+    },
+    {
+        "interface": "Loopback3",
+        "ip_address": "3.3.3.3",
         "status": "up",
         "proto": "up"
     }

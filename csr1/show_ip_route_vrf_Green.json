@@ -1,0 +1,16 @@
+[
+    {
+        "vrf": "Green",
+        "protocol": "C",
+        "type": "",
+        "network": "3.3.3.3",
+        "prefix_length": "32",
+        "distance": "",
+        "metric": "",
+        "nexthop_ip": "",
+        "nexthop_vrf": "",
+        "nexthop_if": "Loopback3",
+        "uptime": "",
+        "flag": ""
+    }
+]
