@@ -1,7 +1,5 @@
 {
-    "commit_datetime": "20241128223835",
+    "commit_datetime": "20241128230158",
     "change_request_number": "MANUALCOLLECTION",
-    "in_scope": {
-        "csr1": {}
-    }
+    "in_scope": {}
 }
