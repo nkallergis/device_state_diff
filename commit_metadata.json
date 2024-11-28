@@ -1,55 +1,8 @@
 {
-    "commit_datetime": "20241129060848",
+    "commit_datetime": "20241129060951",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-leaf1": {
-            "show_ip_arp_vrf_all": {
-                "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
-                },
-                "command": "show ip arp vrf all"
-            },
-            "show_spanning-tree": {
-                "command": "show spanning-tree"
-            },
-            "show_ip_ospf_neighbor_vrf_all": {
-                "jdiff": {
-                    "jmespath": "[*].[$neighbor_id$, instance, vrf, priority, state, ip_address, interface]"
-                },
-                "command": "show ip ospf neighbor vrf all"
-            },
-            "show_ip_route_vrf_all": {
-                "command": "show ip route vrf all"
-            },
-            "show_version": {
-                "jdiff": {
-                    "jmespath": "[*].[image, sys_mac]"
-                },
-                "command": "show version"
-            },
-            "show_mac_address-table": {
-                "command": "show mac address-table"
-            },
-            "show_lldp_neighbors": {
-                "jdiff": {
-                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
-                },
-                "command": "show lldp neighbors"
-            },
-            "show_interfaces_status": {
-                "jdiff": {
-                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
-                },
-                "command": "show interfaces status"
-            },
-            "show_hostname": {
-                "command": "show hostname"
-            },
-            "show_clock": {
-                "command": "show clock"
-            }
-        },
-        "eos-leaf2": {
+        "eos-spine1": {
             "show_ip_arp_vrf_all": {
                 "jdiff": {
                     "jmespath": "[*].[$ip_address$, mac_address, vrf]"
@@ -137,7 +90,7 @@
                 "command": "show hostname"
             }
         },
-        "eos-spine1": {
+        "eos-leaf2": {
             "show_ip_arp_vrf_all": {
                 "jdiff": {
                     "jmespath": "[*].[$ip_address$, mac_address, vrf]"
@@ -179,6 +132,53 @@
             },
             "show_hostname": {
                 "command": "show hostname"
+            }
+        },
+        "eos-leaf1": {
+            "show_ip_arp_vrf_all": {
+                "jdiff": {
+                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
+                },
+                "command": "show ip arp vrf all"
+            },
+            "show_spanning-tree": {
+                "command": "show spanning-tree"
+            },
+            "show_ip_ospf_neighbor_vrf_all": {
+                "jdiff": {
+                    "jmespath": "[*].[$neighbor_id$, instance, vrf, priority, state, ip_address, interface]"
+                },
+                "command": "show ip ospf neighbor vrf all"
+            },
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
+            },
+            "show_version": {
+                "jdiff": {
+                    "jmespath": "[*].[image, sys_mac]"
+                },
+                "command": "show version"
+            },
+            "show_mac_address-table": {
+                "command": "show mac address-table"
+            },
+            "show_lldp_neighbors": {
+                "jdiff": {
+                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
+                },
+                "command": "show lldp neighbors"
+            },
+            "show_interfaces_status": {
+                "jdiff": {
+                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
+                },
+                "command": "show interfaces status"
+            },
+            "show_hostname": {
+                "command": "show hostname"
+            },
+            "show_clock": {
+                "command": "show clock"
             }
         },
         "csr1": {

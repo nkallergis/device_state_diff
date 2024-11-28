@@ -5,11 +5,6 @@
         "neighbor_interface": "----------------------"
     },
     {
-        "neighbor_name": "eos-spine1.ntc.com",
-        "local_interface": "Et1",
-        "neighbor_interface": "Ethernet2"
-    },
-    {
         "neighbor_name": "csr1.example.com",
         "local_interface": "Et2",
         "neighbor_interface": "Gi2"

@@ -2,7 +2,7 @@
     {
         "port": "Et1",
         "name": "",
-        "status": "connected",
+        "status": "disabled",
         "vlan_id": "routed",
         "duplex": "full",
         "speed": "1G",
