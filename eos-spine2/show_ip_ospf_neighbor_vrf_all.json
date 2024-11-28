@@ -5,7 +5,7 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:32",
+        "dead_time": "00:00:35",
         "ip_address": "10.10.252.2",
         "interface": "Ethernet1"
     }
