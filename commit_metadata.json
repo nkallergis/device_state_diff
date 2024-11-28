@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241129005838",
+    "commit_datetime": "20241129010815",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -77,17 +77,8 @@
                 },
                 "command": "show ip arp vrf Blue"
             },
-            "show_ip_arp_vrf_Green": {
-                "jdiff": {
-                    "jmespath": "[*].[protocol, ip_address, mac_address, type, interface]"
-                },
-                "command": "show ip arp vrf Green"
-            },
             "show_ip_route_vrf_Blue": {
                 "command": "show ip route vrf Blue"
-            },
-            "show_ip_route_vrf_Green": {
-                "command": "show ip route vrf Green"
             }
         }
     }
