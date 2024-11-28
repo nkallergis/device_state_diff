@@ -1,42 +1,7 @@
 {
-    "commit_datetime": "20241129015018",
+    "commit_datetime": "20241129015038",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-spine2": {
-            "show_ip_arp": {
-                "jdiff": {
-                    "jmespath": "[*].[protocol, ip_address, mac_address, type, interface]"
-                },
-                "command": "show ip arp"
-            },
-            "show_spanning-tree": {
-                "command": "show spanning-tree"
-            },
-            "show_ip_ospf_neighbor_vrf_all": {
-                "command": "show ip ospf neighbor vrf all"
-            },
-            "show_version": {
-                "jdiff": {
-                    "jmespath": "[*].[image, sys_mac]"
-                },
-                "command": "show version"
-            },
-            "show_ip_route_vrf_all": {
-                "command": "show ip route vrf all"
-            },
-            "show_mac_address-table": {
-                "command": "show mac address-table"
-            },
-            "show_lldp_neighbors": {
-                "command": "show lldp neighbors"
-            },
-            "show_interfaces_status": {
-                "command": "show interfaces status"
-            },
-            "show_hostname": {
-                "command": "show hostname"
-            }
-        },
         "eos-leaf1": {
             "show_ip_arp": {
                 "jdiff": {
