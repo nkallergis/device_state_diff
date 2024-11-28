@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241129025055",
+    "commit_datetime": "20241129025414",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -25,9 +25,6 @@
                 "command": "show version"
             },
             "show_mac_address-table": {
-                "jdiff": {
-                    "jmespath": "[*].[$mac_address$, vlan_id, destination_port]"
-                },
                 "command": "show mac address-table"
             },
             "show_lldp_neighbors": {
