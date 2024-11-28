@@ -1,8 +1,8 @@
 {
-    "commit_datetime": "20241129061209",
+    "commit_datetime": "20241129061300",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-leaf1": {
+        "eos-spine2": {
             "show_ip_arp_vrf_all": {
                 "jdiff": {
                     "jmespath": "[*].[$ip_address$, mac_address, vrf]"
@@ -44,9 +44,6 @@
             },
             "show_hostname": {
                 "command": "show hostname"
-            },
-            "show_clock": {
-                "command": "show clock"
             }
         },
         "eos-leaf2": {
@@ -93,7 +90,7 @@
                 "command": "show hostname"
             }
         },
-        "eos-spine2": {
+        "eos-leaf1": {
             "show_ip_arp_vrf_all": {
                 "jdiff": {
                     "jmespath": "[*].[$ip_address$, mac_address, vrf]"
@@ -135,6 +132,9 @@
             },
             "show_hostname": {
                 "command": "show hostname"
+            },
+            "show_clock": {
+                "command": "show clock"
             }
         },
         "eos-spine1": {
