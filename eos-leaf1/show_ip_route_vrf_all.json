@@ -1,0 +1,17 @@
+[
+    {
+        "vrf": "default",
+        "protocol": "C",
+        "network": "172.18.0.0",
+        "prefix_length": "16",
+        "distance": "",
+        "metric": "",
+        "direct": "directly",
+        "next_hop": [
+            "connected"
+        ],
+        "interface": [
+            "Management0"
+        ]
+    }
+]

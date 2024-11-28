@@ -1,0 +1,27 @@
+[
+    {
+        "neighbor_name": "------------------------",
+        "local_interface": "----------",
+        "neighbor_interface": "----------------------"
+    },
+    {
+        "neighbor_name": "eos-leaf1.ntc.com",
+        "local_interface": "Et1",
+        "neighbor_interface": "Ethernet2"
+    },
+    {
+        "neighbor_name": "eos-leaf1.ntc.com",
+        "local_interface": "Ma0",
+        "neighbor_interface": "Management0"
+    },
+    {
+        "neighbor_name": "eos-leaf2.ntc.com",
+        "local_interface": "Ma0",
+        "neighbor_interface": "Management0"
+    },
+    {
+        "neighbor_name": "eos-spine1.ntc.com",
+        "local_interface": "Ma0",
+        "neighbor_interface": "Management0"
+    }
+]
