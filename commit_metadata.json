@@ -1,7 +1,7 @@
 {
-    "commit_datetime": "20241128235029",
+    "commit_datetime": "20241129001459",
     "change_request_number": "MANUALCOLLECTION",
-    "in_scope": {
+    "scope": {
         "eos-leaf1": {
             "show_ip_arp": {
                 "jdiff": {
