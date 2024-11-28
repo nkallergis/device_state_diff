@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241129023316",
+    "commit_datetime": "20241129024529",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -15,22 +15,28 @@
             "show_ip_ospf_neighbor_vrf_all": {
                 "command": "show ip ospf neighbor vrf all"
             },
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
+            },
             "show_version": {
                 "jdiff": {
                     "jmespath": "[*].[image, sys_mac]"
                 },
                 "command": "show version"
             },
-            "show_ip_route_vrf_all": {
-                "command": "show ip route vrf all"
-            },
             "show_mac_address-table": {
                 "command": "show mac address-table"
             },
             "show_lldp_neighbors": {
+                "jdiff": {
+                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
+                },
                 "command": "show lldp neighbors"
             },
             "show_interfaces_status": {
+                "jdiff": {
+                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
+                },
                 "command": "show interfaces status"
             },
             "show_hostname": {
@@ -43,7 +49,7 @@
         "csr1": {
             "show_ip_arp": {
                 "jdiff": {
-                    "jmespath": "[*].[protocol, ip_address, mac_address, type, interface]"
+                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
                 },
                 "command": "show ip arp"
             },
@@ -68,12 +74,18 @@
             "show_mac_address-table": {
                 "command": "show mac address-table"
             },
+            "show_lldp_neighbors": {
+                "command": "show lldp neighbors"
+            },
             "show_ip_interface_brief": {
+                "jdiff": {
+                    "jmespath": "[*].[$interface$, ip_address, status, proto]"
+                },
                 "command": "show ip interface brief"
             },
             "show_ip_arp_vrf_Blue": {
                 "jdiff": {
-                    "jmespath": "[*].[protocol, $ip_address$, mac_address, type, interface]"
+                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
                 },
                 "command": "show ip arp vrf Blue"
             },

@@ -1,0 +1,8 @@
+[
+    {
+        "neighbor_name": "eos-leaf2.ntc.com",
+        "local_interface": "Gi2",
+        "capabilities": "B,R",
+        "neighbor_interface": "Ethernet2"
+    }
+]
