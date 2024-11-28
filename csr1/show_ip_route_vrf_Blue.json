@@ -10,7 +10,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -24,7 +24,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -38,7 +38,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -52,7 +52,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -66,7 +66,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -80,7 +80,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
@@ -94,7 +94,7 @@
         "nexthop_ip": "10.10.255.1",
         "nexthop_vrf": "",
         "nexthop_if": "GigabitEthernet2",
-        "uptime": "00:12:41",
+        "uptime": "00:14:23",
         "flag": ""
     },
     {
