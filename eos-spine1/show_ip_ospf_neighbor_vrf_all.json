@@ -5,7 +5,7 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:34",
+        "dead_time": "00:00:38",
         "ip_address": "10.10.1.2",
         "interface": "Ethernet1"
     },
@@ -15,7 +15,7 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:36",
+        "dead_time": "00:00:30",
         "ip_address": "10.10.1.6",
         "interface": "Ethernet2"
     },
@@ -25,7 +25,7 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:35",
+        "dead_time": "00:00:29",
         "ip_address": "10.10.1.10",
         "interface": "Ethernet3"
     }
