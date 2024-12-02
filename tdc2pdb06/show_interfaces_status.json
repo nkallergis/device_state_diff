@@ -1,0 +1,29 @@
+[
+    {
+        "port": "Et1",
+        "name": "",
+        "status": "connected",
+        "vlan_id": "routed",
+        "duplex": "full",
+        "speed": "1G",
+        "type": "EbraTestPhyPort"
+    },
+    {
+        "port": "Et2",
+        "name": "",
+        "status": "connected",
+        "vlan_id": "routed",
+        "duplex": "full",
+        "speed": "1G",
+        "type": "EbraTestPhyPort"
+    },
+    {
+        "port": "Ma0",
+        "name": "",
+        "status": "connected",
+        "vlan_id": "routed",
+        "duplex": "a-full",
+        "speed": "a-1G",
+        "type": "10/100/1000"
+    }
+]
