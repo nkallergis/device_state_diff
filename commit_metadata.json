@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241203195628",
+    "commit_datetime": "20241203195947",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -18,14 +18,18 @@
                 },
                 "command": "show ip ospf neighbor vrf all"
             },
-            "show_ip_route_vrf_all": {
-                "command": "show ip route vrf all"
-            },
             "show_version": {
                 "jdiff": {
-                    "jmespath": "[*].free_memory"
+                    "jmespath": "[*].free_memory",
+                    "check_type": "tolerance",
+                    "evaluate_kwargs": {
+                        "tolerance": 20
+                    }
                 },
                 "command": "show version"
+            },
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
             },
             "show_mac_address-table": {
                 "command": "show mac address-table"
