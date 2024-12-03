@@ -1,0 +1,32 @@
+[
+    {
+        "status": "*",
+        "path_selection": " ",
+        "route_source": ">",
+        "network": "99.99.99.1/32",
+        "next_hop": "10.10.10.1",
+        "metric": "0",
+        "local_pref": "-",
+        "weight": "100",
+        "as_path": "0       65001",
+        "origin": "i",
+        "vrf": "default",
+        "local_as": "65002",
+        "router_id": "99.99.99.2"
+    },
+    {
+        "status": "*",
+        "path_selection": " ",
+        "route_source": ">",
+        "network": "99.99.99.2/32",
+        "next_hop": "-",
+        "metric": "-",
+        "local_pref": "-",
+        "weight": "-",
+        "as_path": "0",
+        "origin": "i",
+        "vrf": "default",
+        "local_as": "65002",
+        "router_id": "99.99.99.2"
+    }
+]
