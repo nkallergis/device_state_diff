@@ -188,8 +188,8 @@
     {
         "vrf": "default",
         "protocol": "C",
-        "network": "172.18.0.0",
-        "prefix_length": "16",
+        "network": "172.20.20.0",
+        "prefix_length": "24",
         "distance": "",
         "metric": "",
         "direct": "directly",
