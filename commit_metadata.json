@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241203202614",
+    "commit_datetime": "20241203202652",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-spine1": {
@@ -46,8 +46,8 @@
                 },
                 "command": "show interfaces status"
             },
-            "show_ip_bgp_neighbors_vrf_all": {
-                "command": "show ip bgp neighbors vrf all"
+            "show_ip_bgp_vrf_all": {
+                "command": "show ip bgp vrf all"
             }
         }
     }
