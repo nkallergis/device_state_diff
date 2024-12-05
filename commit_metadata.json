@@ -1,12 +1,9 @@
 {
-    "commit_datetime": "20241205210608",
+    "commit_datetime": "20241205210845",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "csr1": {
             "show_ip_arp": {
-                "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
-                },
                 "command": "show ip arp"
             },
             "show_spanning-tree": {
