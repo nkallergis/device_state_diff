@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241205203444",
+    "commit_datetime": "20241205210608",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "csr1": {
@@ -49,9 +49,6 @@
                 "command": "show ip interface brief"
             },
             "show_ip_arp_vrf_Blue": {
-                "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
-                },
                 "command": "show ip arp vrf Blue"
             },
             "show_ip_route_vrf_Blue": {
