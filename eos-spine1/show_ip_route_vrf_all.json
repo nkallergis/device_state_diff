@@ -155,36 +155,6 @@
     },
     {
         "vrf": "default",
-        "protocol": "O",
-        "network": "10.10.20.1",
-        "prefix_length": "32",
-        "distance": "110",
-        "metric": "21",
-        "direct": "",
-        "next_hop": [
-            "10.10.1.6"
-        ],
-        "interface": [
-            "Ethernet2"
-        ]
-    },
-    {
-        "vrf": "default",
-        "protocol": "O",
-        "network": "10.10.255.0",
-        "prefix_length": "30",
-        "distance": "110",
-        "metric": "20",
-        "direct": "",
-        "next_hop": [
-            "10.10.1.6"
-        ],
-        "interface": [
-            "Ethernet2"
-        ]
-    },
-    {
-        "vrf": "default",
         "protocol": "C",
         "network": "99.99.99.1",
         "prefix_length": "32",

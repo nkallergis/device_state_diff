@@ -1,11 +1,11 @@
 {
-    "commit_datetime": "20241205212207",
+    "commit_datetime": "20241213221236",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-leaf1": {
+        "eos-spine1": {
             "show_ip_arp_vrf_all": {
                 "jdiff": {
-                    "jmespath": "[*].[$ip_address$, age, mac_address, interface, vrf]"
+                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
                 },
                 "command": "show ip arp vrf all"
             },
@@ -32,6 +32,9 @@
                 "command": "show ip route vrf all"
             },
             "show_mac_address-table": {
+                "jdiff": {
+                    "jmespath": "[*].[$mac_address$, destination_port, vlan_id, type]"
+                },
                 "command": "show mac address-table"
             },
             "show_lldp_neighbors": {
@@ -46,8 +49,8 @@
                 },
                 "command": "show interfaces status"
             },
-            "show_clock": {
-                "command": "show clock"
+            "show_ip_bgp_vrf_all": {
+                "command": "show ip bgp vrf all"
             }
         }
     }
