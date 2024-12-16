@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241217060615",
+    "commit_datetime": "20241217061346",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf2": {
@@ -30,12 +30,6 @@
             },
             "show_ip_route_vrf_all": {
                 "command": "show ip route vrf all"
-            },
-            "show_mac_address-table": {
-                "jdiff": {
-                    "jmespath": "[*].[$mac_address$, destination_port, vlan_id, type]"
-                },
-                "command": "show mac address-table"
             },
             "show_lldp_neighbors": {
                 "jdiff": {
@@ -78,12 +72,6 @@
             },
             "show_ip_route_vrf_all": {
                 "command": "show ip route vrf all"
-            },
-            "show_mac_address-table": {
-                "jdiff": {
-                    "jmespath": "[*].[$mac_address$, destination_port, vlan_id, type]"
-                },
-                "command": "show mac address-table"
             },
             "show_lldp_neighbors": {
                 "jdiff": {
