@@ -1,14 +1,14 @@
 [
     {
         "ip_address": "10.10.1.5",
-        "age": "2:18:53",
+        "age": "3:40:04",
         "mac_address": "aac1.ab32.483d",
         "interface": "Ethernet1",
         "vrf": "default"
     },
     {
         "ip_address": "10.10.2.5",
-        "age": "3:40:33",
+        "age": "1:20:51",
         "mac_address": "aac1.ab7f.8388",
         "interface": "Ethernet2",
         "vrf": "default"
