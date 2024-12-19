@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241219232245",
+    "commit_datetime": "20241219232350",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -42,45 +42,6 @@
             },
             "show_clock": {
                 "command": "show clock"
-            }
-        },
-        "eos-leaf2": {
-            "show_ip_arp_vrf_all": {
-                "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
-                },
-                "command": "show ip arp vrf all"
-            },
-            "show_ip_ospf_neighbor_vrf_all": {
-                "jdiff": {
-                    "jmespath": "[*].[$neighbor_id$, instance, vrf, priority, state, ip_address, interface]"
-                },
-                "command": "show ip ospf neighbor vrf all"
-            },
-            "show_version": {
-                "jdiff": {
-                    "jmespath": "[*].free_memory",
-                    "check_type": "tolerance",
-                    "evaluate_kwargs": {
-                        "tolerance": 20
-                    }
-                },
-                "command": "show version"
-            },
-            "show_ip_route_vrf_all": {
-                "command": "show ip route vrf all"
-            },
-            "show_lldp_neighbors": {
-                "jdiff": {
-                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
-                },
-                "command": "show lldp neighbors"
-            },
-            "show_interfaces_status": {
-                "jdiff": {
-                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
-                },
-                "command": "show interfaces status"
             }
         }
     }
