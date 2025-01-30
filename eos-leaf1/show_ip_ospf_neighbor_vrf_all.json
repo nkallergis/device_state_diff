@@ -15,7 +15,7 @@
         "vrf": "default",
         "priority": "1",
         "state": "FULL/BDR",
-        "dead_time": "00:00:33",
+        "dead_time": "00:00:32",
         "ip_address": "10.10.2.1",
         "interface": "Ethernet2"
     }
