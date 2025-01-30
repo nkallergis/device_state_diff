@@ -3,7 +3,7 @@
         "neighbor_id": "10.10.10.4",
         "priority": "1",
         "state": "FULL/DR",
-        "dead_time": "00:00:34",
+        "dead_time": "00:00:36",
         "ip_address": "10.10.255.1",
         "interface": "GigabitEthernet2"
     }
