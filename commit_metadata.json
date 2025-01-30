@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20241219232739",
+    "commit_datetime": "20250130195135",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -24,6 +24,9 @@
                     }
                 },
                 "command": "show version"
+            },
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
             },
             "show_lldp_neighbors": {
                 "jdiff": {

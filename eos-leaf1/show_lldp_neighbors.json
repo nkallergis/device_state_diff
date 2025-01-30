@@ -15,17 +15,17 @@
         "neighbor_interface": "Ethernet1"
     },
     {
-        "neighbor_name": "eos-leaf3.ntc.com",
-        "local_interface": "Ma0",
-        "neighbor_interface": "Management0"
-    },
-    {
         "neighbor_name": "eos-spine1.ntc.com",
         "local_interface": "Ma0",
         "neighbor_interface": "Management0"
     },
     {
         "neighbor_name": "eos-leaf2.ntc.com",
+        "local_interface": "Ma0",
+        "neighbor_interface": "Management0"
+    },
+    {
+        "neighbor_name": "eos-leaf3.ntc.com",
         "local_interface": "Ma0",
         "neighbor_interface": "Management0"
     },

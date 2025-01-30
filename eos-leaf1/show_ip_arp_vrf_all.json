@@ -1,16 +1,23 @@
 [
     {
         "ip_address": "10.10.1.1",
-        "age": "2:28:43",
-        "mac_address": "aac1.ab94.b067",
+        "age": "0:01:21",
+        "mac_address": "aac1.ab56.6bfc",
         "interface": "Ethernet1",
         "vrf": "default"
     },
     {
         "ip_address": "10.10.2.1",
-        "age": "0:38:17",
-        "mac_address": "aac1.ab19.0f8a",
+        "age": "0:01:24",
+        "mac_address": "aac1.ab37.1650",
         "interface": "Ethernet2",
+        "vrf": "default"
+    },
+    {
+        "ip_address": "172.18.0.7",
+        "age": "0:00:00",
+        "mac_address": "0242.ac12.0007",
+        "interface": "Management0",
         "vrf": "default"
     }
 ]
