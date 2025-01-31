@@ -20,7 +20,7 @@
     {
         "port": "Et3",
         "name": "",
-        "status": "connected",
+        "status": "notconnect",
         "vlan_id": "routed",
         "duplex": "full",
         "speed": "1G",

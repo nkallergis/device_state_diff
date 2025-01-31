@@ -153,40 +153,6 @@
     },
     {
         "vrf": "default",
-        "protocol": "O",
-        "network": "10.10.20.1",
-        "prefix_length": "32",
-        "distance": "110",
-        "metric": "31",
-        "direct": "",
-        "next_hop": [
-            "10.10.1.9",
-            "10.10.2.9"
-        ],
-        "interface": [
-            "Ethernet1",
-            "Ethernet2"
-        ]
-    },
-    {
-        "vrf": "default",
-        "protocol": "O",
-        "network": "10.10.255.0",
-        "prefix_length": "30",
-        "distance": "110",
-        "metric": "30",
-        "direct": "",
-        "next_hop": [
-            "10.10.1.9",
-            "10.10.2.9"
-        ],
-        "interface": [
-            "Ethernet1",
-            "Ethernet2"
-        ]
-    },
-    {
-        "vrf": "default",
         "protocol": "C",
         "network": "172.18.0.0",
         "prefix_length": "16",
