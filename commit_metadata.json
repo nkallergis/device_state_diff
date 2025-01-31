@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20250201075543",
+    "commit_datetime": "20250201075831",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -44,66 +44,82 @@
                 "command": "show clock"
             }
         },
-        "csr1": {
-            "show_ip_arp": {
+        "eos-leaf2": {
+            "show_ip_arp_vrf_all": {
                 "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
+                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
                 },
-                "command": "show ip arp"
+                "command": "show ip arp vrf all"
             },
-            "show_spanning-tree": {
-                "command": "show spanning-tree"
-            },
-            "show_ip_ospf_neighbor": {
+            "show_ip_ospf_neighbor_vrf_all": {
                 "jdiff": {
-                    "jmespath": "[*].[$neighbor_id$, priority, state, ip_address, interface]"
+                    "jmespath": "[*].[$neighbor_id$, instance, vrf, priority, state, ip_address, interface]"
                 },
-                "command": "show ip ospf neighbor"
-            },
-            "show_ip_route": {
-                "jdiff": {
-                    "jmespath": "[*].[network, prefix_length, nexthop_if, protocol]"
-                },
-                "command": "show ip route"
+                "command": "show ip ospf neighbor vrf all"
             },
             "show_version": {
                 "jdiff": {
-                    "jmespath": "[*].[software_image, version, config_register]"
+                    "jmespath": "[*].free_memory",
+                    "check_type": "tolerance",
+                    "evaluate_kwargs": {
+                        "tolerance": 20
+                    }
                 },
                 "command": "show version"
             },
-            "show_cdp_neighbors": {
-                "command": "show cdp neighbors"
-            },
-            "show_mac_address-table": {
-                "jdiff": {
-                    "jmespath": "[*].[$destination_address$, destination_port, vlan_id, type]"
-                },
-                "command": "show mac address-table"
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
             },
             "show_lldp_neighbors": {
                 "jdiff": {
-                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface, capabilities]"
+                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
                 },
                 "command": "show lldp neighbors"
             },
-            "show_ip_interface_brief": {
+            "show_interfaces_status": {
                 "jdiff": {
-                    "jmespath": "[*].[$interface$, ip_address, status, proto]"
+                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
                 },
-                "command": "show ip interface brief"
+                "command": "show interfaces status"
+            }
+        },
+        "eos-leaf3": {
+            "show_ip_arp_vrf_all": {
+                "jdiff": {
+                    "jmespath": "[*].[$ip_address$, mac_address, vrf]"
+                },
+                "command": "show ip arp vrf all"
             },
-            "show_ip_arp_vrf_Blue": {
+            "show_ip_ospf_neighbor_vrf_all": {
                 "jdiff": {
-                    "jmespath": "[*].[$ip_address$, mac_address, interface]"
+                    "jmespath": "[*].[$neighbor_id$, instance, vrf, priority, state, ip_address, interface]"
                 },
-                "command": "show ip arp vrf Blue"
+                "command": "show ip ospf neighbor vrf all"
             },
-            "show_ip_route_vrf_Blue": {
+            "show_version": {
                 "jdiff": {
-                    "jmespath": "[*].[network, prefix_length, nexthop_if, protocol]"
+                    "jmespath": "[*].free_memory",
+                    "check_type": "tolerance",
+                    "evaluate_kwargs": {
+                        "tolerance": 20
+                    }
                 },
-                "command": "show ip route vrf Blue"
+                "command": "show version"
+            },
+            "show_ip_route_vrf_all": {
+                "command": "show ip route vrf all"
+            },
+            "show_lldp_neighbors": {
+                "jdiff": {
+                    "jmespath": "[*].[$neighbor_name$, local_interface, neighbor_interface]"
+                },
+                "command": "show lldp neighbors"
+            },
+            "show_interfaces_status": {
+                "jdiff": {
+                    "jmespath": "[*].[$port$, status, vlan_id, duplex, speed]"
+                },
+                "command": "show interfaces status"
             }
         }
     }
