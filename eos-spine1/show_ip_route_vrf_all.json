@@ -155,43 +155,39 @@
     },
     {
         "vrf": "default",
-        "protocol": "C",
-        "network": "99.99.99.1",
+        "protocol": "O",
+        "network": "10.10.20.1",
         "prefix_length": "32",
-        "distance": "",
-        "metric": "",
-        "direct": "directly",
-        "next_hop": [
-            "connected"
-        ],
-        "interface": [
-            "Loopback99"
-        ]
-    },
-    {
-        "vrf": "default",
-        "protocol": "B E",
-        "network": "99.99.99.2",
-        "prefix_length": "32",
-        "distance": "200",
-        "metric": "0",
+        "distance": "110",
+        "metric": "21",
         "direct": "",
         "next_hop": [
-            "10.10.1.2",
-            "10.10.1.6",
-            "10.10.1.10"
+            "10.10.1.6"
         ],
         "interface": [
-            "Ethernet1",
-            "Ethernet2",
-            "Ethernet3"
+            "Ethernet2"
+        ]
+    },
+    {
+        "vrf": "default",
+        "protocol": "O",
+        "network": "10.10.255.0",
+        "prefix_length": "30",
+        "distance": "110",
+        "metric": "20",
+        "direct": "",
+        "next_hop": [
+            "10.10.1.6"
+        ],
+        "interface": [
+            "Ethernet2"
         ]
     },
     {
         "vrf": "default",
         "protocol": "C",
-        "network": "172.20.20.0",
-        "prefix_length": "24",
+        "network": "172.18.0.0",
+        "prefix_length": "16",
         "distance": "",
         "metric": "",
         "direct": "directly",

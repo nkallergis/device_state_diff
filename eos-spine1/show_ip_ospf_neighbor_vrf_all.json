@@ -1,15 +1,5 @@
 [
     {
-        "neighbor_id": "10.10.10.4",
-        "instance": "1",
-        "vrf": "default",
-        "priority": "1",
-        "state": "FULL/DR",
-        "dead_time": "00:00:34",
-        "ip_address": "10.10.1.6",
-        "interface": "Ethernet2"
-    },
-    {
         "neighbor_id": "10.10.10.3",
         "instance": "1",
         "vrf": "default",
@@ -20,12 +10,22 @@
         "interface": "Ethernet1"
     },
     {
-        "neighbor_id": "10.10.10.5",
+        "neighbor_id": "10.10.10.4",
         "instance": "1",
         "vrf": "default",
         "priority": "1",
         "state": "FULL/DR",
         "dead_time": "00:00:36",
+        "ip_address": "10.10.1.6",
+        "interface": "Ethernet2"
+    },
+    {
+        "neighbor_id": "10.10.10.5",
+        "instance": "1",
+        "vrf": "default",
+        "priority": "1",
+        "state": "FULL/DR",
+        "dead_time": "00:00:31",
         "ip_address": "10.10.1.10",
         "interface": "Ethernet3"
     }

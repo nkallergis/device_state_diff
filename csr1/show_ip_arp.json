@@ -2,7 +2,7 @@
     {
         "protocol": "Internet",
         "ip_address": "10.0.0.2",
-        "age": "116",
+        "age": "20",
         "mac_address": "5255.0a00.0002",
         "type": "ARPA",
         "interface": "GigabitEthernet1"
@@ -10,7 +10,7 @@
     {
         "protocol": "Internet",
         "ip_address": "10.0.0.3",
-        "age": "116",
+        "age": "8",
         "mac_address": "5255.0a00.0003",
         "type": "ARPA",
         "interface": "GigabitEthernet1"
@@ -19,7 +19,7 @@
         "protocol": "Internet",
         "ip_address": "10.0.0.15",
         "age": "-",
-        "mac_address": "0c00.e999.c800",
+        "mac_address": "0c00.c022.7000",
         "type": "ARPA",
         "interface": "GigabitEthernet1"
     }
