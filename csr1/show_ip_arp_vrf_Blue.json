@@ -2,7 +2,7 @@
     {
         "protocol": "Internet",
         "ip_address": "10.10.255.1",
-        "age": "46",
+        "age": "51",
         "mac_address": "aac1.ab4b.f752",
         "type": "ARPA",
         "interface": "GigabitEthernet2"
