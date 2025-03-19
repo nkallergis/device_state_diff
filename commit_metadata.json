@@ -1,8 +1,8 @@
 {
-    "commit_datetime": "20250320032639",
+    "commit_datetime": "20250320033202",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-spine1": {
+        "eos-leaf1": {
             "show_ip_arp_vrf_all": {
                 "command": "show ip arp vrf all"
             },
@@ -28,7 +28,7 @@
                 "command": "show interfaces status"
             }
         },
-        "eos-leaf1": {
+        "eos-spine1": {
             "show_ip_arp_vrf_all": {
                 "command": "show ip arp vrf all"
             },
