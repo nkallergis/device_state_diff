@@ -1,10 +1,5 @@
 [
     {
-        "neighbor_name": "------------------------",
-        "local_interface": "----------",
-        "neighbor_interface": "----------------------"
-    },
-    {
         "neighbor_name": "eos-spine1.ntc.com",
         "local_interface": "Et1",
         "neighbor_interface": "Ethernet1"
