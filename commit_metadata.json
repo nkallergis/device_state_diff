@@ -1,5 +1,5 @@
 {
-    "commit_datetime": "20250320033202",
+    "commit_datetime": "20250409034343",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
         "eos-leaf1": {
@@ -28,7 +28,7 @@
                 "command": "show interfaces status"
             }
         },
-        "eos-spine1": {
+        "eos-leaf2": {
             "show_ip_arp_vrf_all": {
                 "command": "show ip arp vrf all"
             },
@@ -52,41 +52,6 @@
             },
             "show_interfaces_status": {
                 "command": "show interfaces status"
-            }
-        },
-        "csr1": {
-            "show_ip_arp": {
-                "command": "show ip arp"
-            },
-            "show_spanning-tree": {
-                "command": "show spanning-tree"
-            },
-            "show_ip_ospf_neighbor": {
-                "command": "show ip ospf neighbor"
-            },
-            "show_ip_route": {
-                "command": "show ip route"
-            },
-            "show_version": {
-                "command": "show version"
-            },
-            "show_cdp_neighbors": {
-                "command": "show cdp neighbors"
-            },
-            "show_mac_address-table": {
-                "command": "show mac address-table"
-            },
-            "show_lldp_neighbors": {
-                "command": "show lldp neighbors"
-            },
-            "show_ip_interface_brief": {
-                "command": "show ip interface brief"
-            },
-            "show_ip_arp_vrf_Blue": {
-                "command": "show ip arp vrf Blue"
-            },
-            "show_ip_route_vrf_Blue": {
-                "command": "show ip route vrf Blue"
             }
         }
     }
