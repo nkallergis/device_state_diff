@@ -1,29 +1,36 @@
 [
     {
         "ip_address": "10.10.1.2",
-        "age": "0:40:26",
+        "age": "0:15:31",
         "mac_address": "aac1.ab51.4fd1",
         "interface": "Ethernet1",
         "vrf": "default"
     },
     {
         "ip_address": "10.10.1.6",
-        "age": "3:13:59",
+        "age": "3:41:53",
         "mac_address": "aac1.ab8c.0d36",
         "interface": "Ethernet2",
         "vrf": "default"
     },
     {
         "ip_address": "10.10.1.10",
-        "age": "1:23:41",
+        "age": "2:25:14",
         "mac_address": "aac1.ab00.d733",
         "interface": "Ethernet3",
         "vrf": "default"
     },
     {
-        "ip_address": "172.18.0.6",
+        "ip_address": "172.18.0.1",
+        "age": "0:03:01",
+        "mac_address": "0242.5bb5.d300",
+        "interface": "Management0",
+        "vrf": "default"
+    },
+    {
+        "ip_address": "172.18.0.5",
         "age": "0:00:00",
-        "mac_address": "0242.ac12.0006",
+        "mac_address": "0242.ac12.0005",
         "interface": "Management0",
         "vrf": "default"
     }
