@@ -1,8 +1,8 @@
 {
-    "commit_datetime": "20250424080547",
+    "commit_datetime": "20250424080858",
     "change_request_number": "MANUALCOLLECTION",
     "scope": {
-        "eos-spine1": {
+        "eos-leaf2": {
             "show_ip_arp_vrf_all": {
                 "command": "show ip arp vrf all"
             },
@@ -25,7 +25,7 @@
                 "command": "show interfaces status"
             }
         },
-        "eos-leaf2": {
+        "eos-spine1": {
             "show_ip_arp_vrf_all": {
                 "command": "show ip arp vrf all"
             },
@@ -99,8 +99,8 @@
             "show_ip_interface_brief": {
                 "command": "show ip interface brief"
             },
-            "show_ip_arp_vrf_Blue": {
-                "command": "show ip arp vrf Blue"
+            "show_ip_arp_vrf_Blue_|_include_ARPA": {
+                "command": "show ip arp vrf Blue | include ARPA"
             },
             "show_ip_route_vrf_Blue": {
                 "command": "show ip route vrf Blue"
